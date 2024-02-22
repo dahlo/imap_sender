@@ -1,0 +1,4 @@
+*.yaml
+.*.sw*
+template.txt
+emails.txt
