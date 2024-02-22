@@ -29,7 +29,7 @@ def send_email(sender_email, sender_password, receiver_email, subject, body, smt
     server.quit()
 
 # Parse command line arguments
-parser = argparse.ArgumentParser(description='Send emails using IMAP')
+parser = argparse.ArgumentParser(description='Send emails using SMTP.')
 parser.add_argument('--template', '-t', required=True, help='Path to the email template file')
 parser.add_argument('--emails', '-e', required=True, help='Path to the email list file')
 parser.add_argument('--config', '-c', required=True, help='Path to the YAML config file')
